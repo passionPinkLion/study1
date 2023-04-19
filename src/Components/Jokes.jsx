@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 
-function Dogs() {
+function Jokes() {
   const [data, setData] = useState(null);
 
   const getWord = async () => {
@@ -24,4 +24,4 @@ function Dogs() {
   return <div>{data ? data.value : "로딩 중..."}</div>;
 }
 
-export default Dogs;
+export default Jokes;
